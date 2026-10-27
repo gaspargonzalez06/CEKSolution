@@ -20,6 +20,7 @@ from app.routers import (
     auth,
     automatizacion,
     clientes,
+    comerciales,
     contratos,
     dashboard,
     distribuidores,
@@ -61,7 +62,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-for r in (auth, usuarios, agentes, distribuidores, clientes, contratos, precios, reclamaciones, ajustes, facturas, facturas_historicas, dashboard, analisis, automatizacion, proceso):
+for r in (auth, usuarios, agentes, distribuidores, clientes, contratos, precios, reclamaciones, ajustes, facturas, facturas_historicas, dashboard, analisis, automatizacion, proceso, comerciales):
     app.include_router(r.router)
 
 

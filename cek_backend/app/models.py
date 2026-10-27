@@ -10,13 +10,14 @@ Y agrega lo nuevo:
   - AgenteCredencial -> usuario y clave del portal CND (para la automatizacion)
   - Reclamaciones -> reclamos que pueden aparecer hasta 3 meses despues
 """
-from datetime import datetime
+from datetime import date, datetime
 
 from sqlalchemy import (
     BigInteger,
     Boolean,
     Column,
     Computed,
+    Date,
     DateTime,
     ForeignKey,
     Integer,
@@ -469,3 +470,38 @@ class Medicion(Base):
     periodo = Column(String(6), Computed("concat(`annio`,lpad(`mes`,2,'0'))", persisted=True))
     archivo_origen = Column(String(255))
     fecha_carga = Column(DateTime)
+
+
+class Homologacion(Base):
+    """Homologacion de transacciones del mercado (tabla homologacion del sistema viejo).
+
+    Da la Agrupacion con la que se presentan las transacciones en el
+    Reporte Comercial y su DTER (usp_reporte_comercial / usp_reporte_comercial_DTER).
+    """
+
+    __tablename__ = "homologacion"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    transaccion = Column(String(100), unique=True, nullable=False)
+    agrupacion = Column(String(100), nullable=False, index=True)
+    creado = Column(DateTime, default=datetime.utcnow)
+
+
+class AjusteValor(Base):
+    """Valores de los ajustes del mercado (tabla Ajustes del sistema viejo).
+
+    Un renglon por ajuste publicado por el CND para el balance del
+    generador: la contraparte (Agente), el atributo (Debito/Credito) y el
+    Valor, con la Fecha del ajuste (asiento entre periodos). La usan el
+    Desglose de costos (dcctr) y los ajustes del Reporte Comercial.
+    """
+
+    __tablename__ = "ajustes_valores"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    fecha = Column(Date, nullable=False)
+    generador = Column(String(20), nullable=False, index=True)
+    agente = Column(String(20), nullable=False, index=True)
+    atributo = Column(String(10), nullable=False)  # 'Debito' | 'Credito'
+    valor = Column(Numeric(14, 2), nullable=False)
+    creado = Column(DateTime, default=datetime.utcnow)

@@ -10,6 +10,7 @@ import 'analisis_clientes_screen.dart';
 import 'analisis_screen.dart';
 import 'automatizacion_screen.dart';
 import 'clientes_screen.dart';
+import 'comerciales_screen.dart';
 import 'contratos_screen.dart';
 import 'dashboard_screen.dart';
 import 'descargas_screen.dart';
@@ -76,6 +77,8 @@ class _HomeScreenState extends State<HomeScreen> {
           (x) => x.puedeEditar),
       _Destino('Análisis clientes', Icons.query_stats_outlined,
           () => const AnalisisClientesScreen(), (x) => true),
+      _Destino('Comerciales', Icons.assessment_outlined, () => const ComercialesScreen(),
+          (x) => x.puedeEditar),
       _Destino('Agentes', Icons.groups_outlined, () => const AgentesScreen(),
           (x) => x.puedeEditar),
       _Destino('Distribuidores', Icons.storefront_outlined,
