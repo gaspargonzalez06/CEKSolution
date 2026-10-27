@@ -62,6 +62,7 @@ def main() -> None:
             str(BASE / "cnd_sync.py"),
             "--user", usuario,
             "--password", pw,
+            "--perfil", "facturacion",
             "--tipos", "dte tabular,dter oficial",
             "--meses", str(args.meses),
         ]

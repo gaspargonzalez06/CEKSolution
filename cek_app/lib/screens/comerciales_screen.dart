@@ -91,78 +91,16 @@ class _ComercialesScreenState extends State<ComercialesScreen> {
   @override
   Widget build(BuildContext context) {
     final anios = List.generate(DateTime.now().year - 2020, (i) => 2021 + i);
-    return Column(
-      children: [
-        EncabezadoSeccion(
-          titulo: 'Reportes Comerciales',
-          subtitulo: 'Comercial · DTER · Subsidio Ley 15 · Facturación y Cobros',
-        ),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-          child: Wrap(
-            spacing: 12,
-            runSpacing: 12,
-            crossAxisAlignment: WrapCrossAlignment.center,
-            children: [
-              ConstrainedBox(
-                constraints: const BoxConstraints(minWidth: 200),
-                child: DropdownButtonFormField<String?>(
-                  initialValue: _agente,
-                  decoration: const InputDecoration(
-                    labelText: 'Agente (generador)',
-                    border: OutlineInputBorder(),
-                    isDense: true,
-                  ),
-                  items: _agentes
-                      .map((a) => DropdownMenuItem(
-                            value: a['codigo'] as String?,
-                            child: Text('${a['nombre']}'),
-                          ))
-                      .toList(),
-                  onChanged: (v) => setState(() => _agente = v),
-                ),
-              ),
-              DropdownButtonFormField<int>(
-                initialValue: _mes,
-                decoration: const InputDecoration(
-                  labelText: 'Mes',
-                  border: OutlineInputBorder(),
-                  isDense: true,
-                ),
-                items: [
-                  for (var m = 1; m <= 12; m++)
-                    DropdownMenuItem(value: m, child: Text(_meses[m - 1])),
-                ],
-                onChanged: (v) => setState(() => _mes = v ?? _mes),
-              ),
-              DropdownButtonFormField<int>(
-                initialValue: _annio,
-                decoration: const InputDecoration(
-                  labelText: 'Año',
-                  border: OutlineInputBorder(),
-                  isDense: true,
-                ),
-                items: [
-                  for (final a in anios) DropdownMenuItem(value: a, child: Text('$a')),
-                ],
-                onChanged: (v) => setState(() => _annio = v ?? _annio),
-              ),
-              SizedBox(
-                width: 240,
-                child: DropdownButtonFormField<String>(
-                  initialValue: _tipo,
-                  decoration: const InputDecoration(
-                    labelText: 'Reporte',
-                    border: OutlineInputBorder(),
-                    isDense: true,
-                  ),
-                  items: [
-                    for (final (k, t) in _reportes)
-                      DropdownMenuItem(value: k, child: Text(t)),
-                  ],
-                  onChanged: (v) => setState(() => _tipo = v ?? _tipo),
-                ),
-              ),
+    return Scaffold(
+      backgroundColor: Colors.transparent,
+      body: Column(
+        children: [
+          EncabezadoSeccion(
+            titulo: 'Reportes Comerciales',
+            subtitulo: '${_reportes.firstWhere((r) => r.$1 == _tipo).$2}'
+                ' · ${_meses[_mes - 1]} $_annio',
+            icono: Icons.assessment_outlined,
+            acciones: [
               FilledButton.icon(
                 onPressed: _cargando ? null : _consultar,
                 icon: const Icon(Icons.table_chart_outlined),
@@ -170,49 +108,145 @@ class _ComercialesScreenState extends State<ComercialesScreen> {
               ),
             ],
           ),
-        ),
-        Expanded(
-          child: _cargando
-              ? const Center(child: CircularProgressIndicator())
-              : _error != null
-                  ? ErrorVista(error: _error!, alReintentar: _consultar)
-                  : _data == null
-                      ? const EstadoVacio(
-                          mensaje: 'Elige agente, mes y el reporte a generar.')
-                      : _resultado(),
-        ),
-      ],
+          Padding(
+            padding: const EdgeInsets.fromLTRB(20, 0, 20, 8),
+            child: Tarjeta(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+                child: Wrap(
+                  spacing: 12,
+                  runSpacing: 12,
+                  crossAxisAlignment: WrapCrossAlignment.center,
+                  children: [
+                    ConstrainedBox(
+                      constraints: const BoxConstraints(minWidth: 220),
+                      child: DropdownButtonFormField<String?>(
+                        initialValue: _agente,
+                        decoration: const InputDecoration(
+                          labelText: 'Agente (generador)',
+                          border: OutlineInputBorder(),
+                          isDense: true,
+                        ),
+                        items: _agentes
+                            .map((a) => DropdownMenuItem(
+                                  value: a['codigo'] as String?,
+                                  child: Text('${a['nombre']}'),
+                                ))
+                            .toList(),
+                        onChanged: (v) => setState(() => _agente = v),
+                      ),
+                    ),
+                    DropdownButtonFormField<int>(
+                      initialValue: _mes,
+                      decoration: const InputDecoration(
+                        labelText: 'Mes',
+                        border: OutlineInputBorder(),
+                        isDense: true,
+                      ),
+                      items: [
+                        for (var m = 1; m <= 12; m++)
+                          DropdownMenuItem(value: m, child: Text(_meses[m - 1])),
+                      ],
+                      onChanged: (v) => setState(() => _mes = v ?? _mes),
+                    ),
+                    DropdownButtonFormField<int>(
+                      initialValue: _annio,
+                      decoration: const InputDecoration(
+                        labelText: 'Año',
+                        border: OutlineInputBorder(),
+                        isDense: true,
+                      ),
+                      items: [
+                        for (final a in anios) DropdownMenuItem(value: a, child: Text('$a')),
+                      ],
+                      onChanged: (v) => setState(() => _annio = v ?? _annio),
+                    ),
+                    SizedBox(
+                      width: 260,
+                      child: DropdownButtonFormField<String>(
+                        initialValue: _tipo,
+                        decoration: const InputDecoration(
+                          labelText: 'Reporte',
+                          border: OutlineInputBorder(),
+                          isDense: true,
+                        ),
+                        items: [
+                          for (final (k, t) in _reportes)
+                            DropdownMenuItem(value: k, child: Text(t)),
+                        ],
+                        onChanged: (v) => setState(() => _tipo = v ?? _tipo),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Expanded(
+            child: _cargando
+                ? const Center(child: CircularProgressIndicator())
+                : _error != null
+                    ? ErrorVista(error: _error!, alReintentar: _consultar)
+                    : _data == null
+                        ? const EstadoVacio(
+                            mensaje:
+                                'Elige agente, mes, año y el reporte a generar. ',
+                            icono: Icons.assessment_outlined)
+                        : _resultado(),
+          ),
+        ],
+      ),
     );
   }
 
   Widget _resultado() {
     final d = _data!;
     if ((d['lineas'] ?? const []) is List && (d['lineas'] as List).isEmpty) {
-      return const EstadoVacio(
-          mensaje: 'El generador no tiene transacciones en ese periodo.');
+      return const EstadoVacio(mensaje: 'El generador no tiene transacciones en ese periodo.');
     }
     return ListView(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.fromLTRB(20, 8, 20, 32),
       children: [
         Tarjeta(
           child: Padding(
             padding: const EdgeInsets.all(14),
-            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text('${d['nombre'] ?? d['generador']}  ·  ${d['mes'] ?? ''}',
-                  style: Theme.of(context).textTheme.titleLarge),
-              const SizedBox(height: 4),
-              Text(d['titulo'] ?? '', style: Theme.of(context).textTheme.labelLarge),
-              const SizedBox(height: 10),
-              ..._lineas(),
-              const SizedBox(height: 10),
-              Wrap(spacing: 8, children: [
-                OutlinedButton.icon(
-                  onPressed: () => abrirEnNavegador(_urlHtml),
-                  icon: const Icon(Icons.print_outlined),
-                  label: const Text('Imprimir'),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    CircleAvatar(child: Icon(Icons.assessment_outlined)),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text('${d['nombre'] ?? d['generador']}',
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .titleLarge
+                                  ?.copyWith(fontWeight: FontWeight.w700)),
+                          Text('${d['titulo']} · ${d['mes'] ?? ''}'),
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
-              ]),
-            ]),
+                const SizedBox(height: 12),
+                ..._lineas(),
+                const Divider(height: 24),
+                Wrap(
+                  spacing: 10,
+                  children: [
+                    OutlinedButton.icon(
+                      onPressed: () => abrirEnNavegador(_urlHtml),
+                      icon: const Icon(Icons.print_outlined),
+                      label: const Text('Imprimir / PDF'),
+                    ),
+                  ],
+                ),
+              ],
+            ),
           ),
         ),
       ],

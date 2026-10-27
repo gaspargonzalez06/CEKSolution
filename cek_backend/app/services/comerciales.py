@@ -531,20 +531,46 @@ def detalle_cobros(db: Session, generador: str, annio: int, mes: int) -> dict:
 
 
 _CSS = """
-body { font-family: 'Segoe UI', Arial, sans-serif; color:#222; background:#eee; }
-.invoice { width:210mm; margin:12px auto; background:#fff; padding:14mm; box-shadow:0 0 6px rgba(0,0,0,.25); }
-h1 { font-size:16pt; text-align:center; margin:0 0 4px; }
-h2 { font-size:13pt; text-align:center; font-weight:normal; margin:0 0 2px; }
-h3 { font-size:12pt; text-align:center; font-weight:normal; margin:0 0 12px; }
-table { width:100%; border-collapse:collapse; font-size:10pt; margin-top:10px; }
-th { background:#3B5BA5; color:#fff; padding:6px 8px; text-align:center; }
-td { padding:5px 8px; border-bottom:1px solid #e6e8ef; }
-td.num { text-align:right; font-variant-numeric: tabular-nums; }
-tr.total td { font-weight:bold; border-top:2px solid #3B5BA5; background:#f0f4ff; }
-tr.subtot td { font-weight:bold; background:#f7f9ff; }
-.tools { text-align:right; margin-bottom:8px; }
-button { background:#3B5BA5; border:0; color:#fff; padding:6px 14px; border-radius:5px; cursor:pointer; }
-@media print { body { background:#fff } .invoice { box-shadow:none; margin:0; width:auto } .tools { display:none } }
+  :root { --ink:#202a35; --muted:#5d6875; --line:#aab4c0; --soft:#edf2f8; --blue:#315c8a; --accent:#d84a43; }
+  * { box-sizing:border-box; }
+  html { background:#e9edf2; }
+  body { margin:0; color:var(--ink); font-family:Arial,Helvetica,sans-serif; font-size:10pt; line-height:1.35; }
+  .toolbar { max-width:210mm; margin:16px auto; padding:12px 16px; background:#fff; border:1px solid #d3dbe4;
+             border-radius:8px; display:flex; gap:12px; align-items:center; justify-content:space-between; }
+  .toolbar button { border:0; border-radius:5px; padding:10px 16px; color:#fff; background:var(--blue); font-weight:700; cursor:pointer; }
+  .toolbar .hint { color:var(--muted); font-size:9pt; }
+  .invoice { width:210mm; min-height:297mm; margin:0 auto 20px; padding:12mm 12mm 15mm; background:#fff; box-shadow:0 2px 14px #00000016; }
+  .top-rule { height:3px; margin-bottom:7mm; background:linear-gradient(90deg,#e54b48 0 50%,#5267df 50% 100%); }
+  .report-head { text-align:center; margin:2mm 0 5mm; }
+  .report-head .empresa { color:var(--blue); font-family:Georgia,"Times New Roman",serif; font-size:17pt; line-height:1.15; }
+  .report-head .nombre { font-size:15pt; font-weight:800; letter-spacing:.3px; }
+  .report-head .periodo { font-size:12pt; color:var(--muted); }
+  table { width:100%; border-collapse:collapse; table-layout:fixed; font-size:9pt; margin-top:4mm; }
+  thead { display:table-header-group; }
+  th { background:#dce5f1; border:1px solid #26313d; padding:6px 6px; text-align:center; font-size:8.5pt;
+       overflow-wrap:anywhere; word-break:break-word; white-space:normal; }
+  td { border:1px solid #26313d; padding:6px 6px; vertical-align:top;
+       overflow-wrap:anywhere; word-break:break-word; white-space:normal; }
+  tbody tr { break-inside:avoid; page-break-inside:avoid; }
+  .num { text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums; }
+  subtotalaux {}
+  tr.subtot td { background:#f5f7fa; font-weight:700; }
+  tr.total td { border-top:2px solid #26313d; background:#edf2f8; font-size:11pt; font-weight:800; text-align:right; }
+  tr.total td.num { text-align:right; }
+  .nota { margin-top:5mm; color:var(--muted); font-size:8pt; }
+  .destacado { margin-top:5mm; padding:7px 10px; border:1px solid var(--blue); background:#fff; text-align:center; font-size:11pt; }
+  .footer { margin-top:10mm; padding-top:3mm; border-top:1px solid #c7ced6; color:var(--muted); font-size:8pt; display:flex; justify-content:space-between; gap:8px; }
+  @page { size:A4; margin:10mm 12mm 12mm; }
+  @media print {
+    html,body { background:#fff; } body { font-size:9pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    .toolbar { display:none !important; }
+    .invoice { width:auto; min-height:0; margin:0; padding:0; box-shadow:none; border:0; }
+    .top-rule { margin-top:0; }
+    .report-head { break-inside:avoid; page-break-inside:avoid; }
+    table { break-inside:auto; page-break-inside:auto; }
+    tr { break-inside:avoid; page-break-inside:avoid; }
+    tr.total, tr.subtot, .destacado, .nota, .footer { break-inside:avoid; page-break-inside:avoid; }
+  }
 """.strip()
 
 
@@ -587,7 +613,7 @@ def render_html(datos: dict) -> str:
         extra = ""
         p = datos.get("precio_promedio_venta")
         if p is not None:
-            extra += f"<p style='text-align:center;border:1px solid #3B5BA5;padding:8px;'>Precio Promedio de Venta Mercado Ocasional: <b>{_fmt(p)}</b> &nbsp;/&nbsp; {_fmt(-p)}</p>"
+            extra += f"<div class='destacado'>Precio Promedio de Venta Mercado Ocasional: <b>{_fmt(p)}</b> &nbsp;/&nbsp; {_fmt(-p)} $/MWh</div>"
 
     elif titulo.upper().endswith("DTER"):
         cabezas = ["AGRUPACIÓN", "AGENTE", "CLIENTE", "ATRIBUTO", "VALOR"]
@@ -651,11 +677,18 @@ def render_html(datos: dict) -> str:
     return f"""<!DOCTYPE html>
 <html lang="es"><head><meta charset="utf-8"><title>{titulo} - {nombre}</title>
 <style>{_CSS}</style></head><body>
+<div class="toolbar">
+  <span class="hint">{titulo} · {nombre} · {mes}</span>
+  <button onclick="window.print()">Imprimir</button>
+</div>
 <main class="invoice">
-<div class="tools"><button onclick="window.print()">Imprimir</button></div>
-<h1>{nombre}</h1>
-<h2>{titulo}</h2>
-<h3>{mes}</h3>
+<div class="top-rule"></div>
+<div class="report-head">
+  <div class="empresa">{nombre}</div>
+  <div class="nombre">{titulo}</div>
+  <div class="periodo">{mes}</div>
+</div>
 <table>{thead}<tbody>{filas}</tbody></table>
 {extra}
+<div class="footer"><span>Generado por CEK</span><span>Reporte comercial · {mes}</span></div>
 </main></body></html>"""
