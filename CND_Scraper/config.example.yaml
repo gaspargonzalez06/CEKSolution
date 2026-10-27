@@ -1,0 +1,37 @@
+# Copia este archivo como config.yaml y pon tus credenciales reales.
+# NOTA: config.yaml NO se sube al repo (esta en .gitignore).
+
+database:
+  type: "mariadb"
+  host: "127.0.0.1"
+  port: 3306
+  database: "cek"
+  username: "root"
+  password: ""
+
+portal:
+  base_url: "https://sitiopublico.cnd.com.pa"
+  login_url: "https://sitiopublico.cnd.com.pa/privado/"
+  login:
+    username_selector: "#modlgn-username"
+    password_selector: "#modlgn-passwd"
+    submit_selector: 'button.login-button[type="submit"]'
+    wait_after_login: 5000
+  dashboard_url: "https://sitioprivado.cnd.com.pa/Home/Dashboard"
+
+scraping:
+  headless: true
+  timeout: 60000
+  delay_ms: 2000
+  download_dir: "./downloads"
+  incremental: true
+  stop_on_known: true
+  max_test_files: 10
+
+agentes:
+  MINOMBREAGENTE:
+    usuario: "USUARIO_CND"
+    password: "PASSWORD_EN_CLARO_O_CIFRADA"
+    codigo: "MINOMBREAGENTE"
+    nombre: "MINOMBREAGENTE"
+    es_generador: true

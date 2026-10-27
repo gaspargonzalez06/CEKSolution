@@ -1,0 +1,1722 @@
+[
+  {
+    "id": 4166366,
+    "agente": {
+      "id": "AG921",
+      "codigo": "BRILLOSOL",
+      "nombre": "Generadora Brillo Solar, S. A.",
+      "ruc": "155731553-2-2022",
+      "digitoVerificador": "01",
+      "direccion": null,
+      "apartadoPostal": null,
+      "website": null,
+      "contacto": null,
+      "representante": null,
+      "general": null,
+      "financiero": null,
+      "comercial": null,
+      "operaciones": null,
+      "smec": null
+    },
+    "tipo": {
+      "id": 1157,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Liquidación",
+      "directory": "CND_PRELIMINAR_LIQUIDACION",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1157,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1157,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4157640,
+      "idinforme": 4166366,
+      "path": "CND_PRELIMINAR_LIQUIDACION\\2026\\Octubre\\8\\BRILLOSOL\\Preliminar_liquidacion_GCP0727_BRILLOSOL_01oct2026_08oct2026.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791824347000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 11:59",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4166367,
+    "agente": {
+      "id": "AG921",
+      "codigo": "BRILLOSOL",
+      "nombre": "Generadora Brillo Solar, S. A.",
+      "ruc": "155731553-2-2022",
+      "digitoVerificador": "01",
+      "direccion": null,
+      "apartadoPostal": null,
+      "website": null,
+      "contacto": null,
+      "representante": null,
+      "general": null,
+      "financiero": null,
+      "comercial": null,
+      "operaciones": null,
+      "smec": null
+    },
+    "tipo": {
+      "id": 1157,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Liquidación",
+      "directory": "CND_PRELIMINAR_LIQUIDACION",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1157,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1157,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4157641,
+      "idinforme": 4166367,
+      "path": "CND_PRELIMINAR_LIQUIDACION\\2026\\Octubre\\8\\BRILLOSOL\\Preliminar_liquidacion_GCP0728_BRILLOSOL_01oct2026_08oct2026.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791824347000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 11:59",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4166368,
+    "agente": {
+      "id": "AG921",
+      "codigo": "BRILLOSOL",
+      "nombre": "Generadora Brillo Solar, S. A.",
+      "ruc": "155731553-2-2022",
+      "digitoVerificador": "01",
+      "direccion": null,
+      "apartadoPostal": null,
+      "website": null,
+      "contacto": null,
+      "representante": null,
+      "general": null,
+      "financiero": null,
+      "comercial": null,
+      "operaciones": null,
+      "smec": null
+    },
+    "tipo": {
+      "id": 1157,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Liquidación",
+      "directory": "CND_PRELIMINAR_LIQUIDACION",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1157,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1157,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4157642,
+      "idinforme": 4166368,
+      "path": "CND_PRELIMINAR_LIQUIDACION\\2026\\Octubre\\8\\BRILLOSOL\\Preliminar_liquidacion_GCP0731_BRILLOSOL_01oct2026_08oct2026.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791824347000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 11:59",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4166369,
+    "agente": {
+      "id": "AG921",
+      "codigo": "BRILLOSOL",
+      "nombre": "Generadora Brillo Solar, S. A.",
+      "ruc": "155731553-2-2022",
+      "digitoVerificador": "01",
+      "direccion": null,
+      "apartadoPostal": null,
+      "website": null,
+      "contacto": null,
+      "representante": null,
+      "general": null,
+      "financiero": null,
+      "comercial": null,
+      "operaciones": null,
+      "smec": null
+    },
+    "tipo": {
+      "id": 1157,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Liquidación",
+      "directory": "CND_PRELIMINAR_LIQUIDACION",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1157,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1157,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4157643,
+      "idinforme": 4166369,
+      "path": "CND_PRELIMINAR_LIQUIDACION\\2026\\Octubre\\8\\BRILLOSOL\\Preliminar_liquidacion_GCP0732_BRILLOSOL_01oct2026_08oct2026.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791824347000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 11:59",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4166370,
+    "agente": {
+      "id": "AG921",
+      "codigo": "BRILLOSOL",
+      "nombre": "Generadora Brillo Solar, S. A.",
+      "ruc": "155731553-2-2022",
+      "digitoVerificador": "01",
+      "direccion": null,
+      "apartadoPostal": null,
+      "website": null,
+      "contacto": null,
+      "representante": null,
+      "general": null,
+      "financiero": null,
+      "comercial": null,
+      "operaciones": null,
+      "smec": null
+    },
+    "tipo": {
+      "id": 1157,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Liquidación",
+      "directory": "CND_PRELIMINAR_LIQUIDACION",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1157,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1157,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4157644,
+      "idinforme": 4166370,
+      "path": "CND_PRELIMINAR_LIQUIDACION\\2026\\Octubre\\8\\BRILLOSOL\\Preliminar_liquidacion_GCP0733_BRILLOSOL_01oct2026_08oct2026.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791824347000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 11:59",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4165607,
+    "agente": {
+      "id": "AG921",
+      "codigo": "BRILLOSOL",
+      "nombre": "Generadora Brillo Solar, S. A.",
+      "ruc": "155731553-2-2022",
+      "digitoVerificador": "01",
+      "direccion": null,
+      "apartadoPostal": null,
+      "website": null,
+      "contacto": null,
+      "representante": null,
+      "general": null,
+      "financiero": null,
+      "comercial": null,
+      "operaciones": null,
+      "smec": null
+    },
+    "tipo": {
+      "id": 1158,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Totales por Contrato",
+      "directory": "CND_PRELIMINAR_TOTALES_CONTRATO",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1158,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1158,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4156881,
+      "idinforme": 4165607,
+      "path": "CND_PRELIMINAR_TOTALES_CONTRATO\\2026\\Octubre\\8\\BRILLOSOL\\totales_por_contratos_2026_octubre_BRILLOSOL.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791822334000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 11:25",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4165608,
+    "agente": {
+      "id": "AG921",
+      "codigo": "BRILLOSOL",
+      "nombre": "Generadora Brillo Solar, S. A.",
+      "ruc": "155731553-2-2022",
+      "digitoVerificador": "01",
+      "direccion": null,
+      "apartadoPostal": null,
+      "website": null,
+      "contacto": null,
+      "representante": null,
+      "general": null,
+      "financiero": null,
+      "comercial": null,
+      "operaciones": null,
+      "smec": null
+    },
+    "tipo": {
+      "id": 1158,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Totales por Contrato",
+      "directory": "CND_PRELIMINAR_TOTALES_CONTRATO",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1158,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1158,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4156882,
+      "idinforme": 4165608,
+      "path": "CND_PRELIMINAR_TOTALES_CONTRATO\\2026\\Octubre\\8\\BRILLOSOL\\totales_por_contratos_2026_octubre_GCP0719_BRILLOSOL.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791822334000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 11:25",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4165609,
+    "agente": {
+      "id": "AG921",
+      "codigo": "BRILLOSOL",
+      "nombre": "Generadora Brillo Solar, S. A.",
+      "ruc": "155731553-2-2022",
+      "digitoVerificador": "01",
+      "direccion": null,
+      "apartadoPostal": null,
+      "website": null,
+      "contacto": null,
+      "representante": null,
+      "general": null,
+      "financiero": null,
+      "comercial": null,
+      "operaciones": null,
+      "smec": null
+    },
+    "tipo": {
+      "id": 1158,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Totales por Contrato",
+      "directory": "CND_PRELIMINAR_TOTALES_CONTRATO",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1158,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1158,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4156883,
+      "idinforme": 4165609,
+      "path": "CND_PRELIMINAR_TOTALES_CONTRATO\\2026\\Octubre\\8\\BRILLOSOL\\totales_por_contratos_2026_octubre_GCP0720_BRILLOSOL.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791822334000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 11:25",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4165610,
+    "agente": {
+      "id": "AG921",
+      "codigo": "BRILLOSOL",
+      "nombre": "Generadora Brillo Solar, S. A.",
+      "ruc": "155731553-2-2022",
+      "digitoVerificador": "01",
+      "direccion": null,
+      "apartadoPostal": null,
+      "website": null,
+      "contacto": null,
+      "representante": null,
+      "general": null,
+      "financiero": null,
+      "comercial": null,
+      "operaciones": null,
+      "smec": null
+    },
+    "tipo": {
+      "id": 1158,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Totales por Contrato",
+      "directory": "CND_PRELIMINAR_TOTALES_CONTRATO",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1158,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1158,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4156884,
+      "idinforme": 4165610,
+      "path": "CND_PRELIMINAR_TOTALES_CONTRATO\\2026\\Octubre\\8\\BRILLOSOL\\totales_por_contratos_2026_octubre_GCP0721_BRILLOSOL.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791822334000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 11:25",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4165611,
+    "agente": {
+      "id": "AG921",
+      "codigo": "BRILLOSOL",
+      "nombre": "Generadora Brillo Solar, S. A.",
+      "ruc": "155731553-2-2022",
+      "digitoVerificador": "01",
+      "direccion": null,
+      "apartadoPostal": null,
+      "website": null,
+      "contacto": null,
+      "representante": null,
+      "general": null,
+      "financiero": null,
+      "comercial": null,
+      "operaciones": null,
+      "smec": null
+    },
+    "tipo": {
+      "id": 1158,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Totales por Contrato",
+      "directory": "CND_PRELIMINAR_TOTALES_CONTRATO",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1158,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1158,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4156885,
+      "idinforme": 4165611,
+      "path": "CND_PRELIMINAR_TOTALES_CONTRATO\\2026\\Octubre\\8\\BRILLOSOL\\totales_por_contratos_2026_octubre_GCP0722_BRILLOSOL.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791822334000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 11:25",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4165612,
+    "agente": {
+      "id": "AG921",
+      "codigo": "BRILLOSOL",
+      "nombre": "Generadora Brillo Solar, S. A.",
+      "ruc": "155731553-2-2022",
+      "digitoVerificador": "01",
+      "direccion": null,
+      "apartadoPostal": null,
+      "website": null,
+      "contacto": null,
+      "representante": null,
+      "general": null,
+      "financiero": null,
+      "comercial": null,
+      "operaciones": null,
+      "smec": null
+    },
+    "tipo": {
+      "id": 1158,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Totales por Contrato",
+      "directory": "CND_PRELIMINAR_TOTALES_CONTRATO",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1158,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1158,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4156886,
+      "idinforme": 4165612,
+      "path": "CND_PRELIMINAR_TOTALES_CONTRATO\\2026\\Octubre\\8\\BRILLOSOL\\totales_por_contratos_2026_octubre_GCP0727_BRILLOSOL.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791822334000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 11:25",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4165613,
+    "agente": {
+      "id": "AG921",
+      "codigo": "BRILLOSOL",
+      "nombre": "Generadora Brillo Solar, S. A.",
+      "ruc": "155731553-2-2022",
+      "digitoVerificador": "01",
+      "direccion": null,
+      "apartadoPostal": null,
+      "website": null,
+      "contacto": null,
+      "representante": null,
+      "general": null,
+      "financiero": null,
+      "comercial": null,
+      "operaciones": null,
+      "smec": null
+    },
+    "tipo": {
+      "id": 1158,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Totales por Contrato",
+      "directory": "CND_PRELIMINAR_TOTALES_CONTRATO",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1158,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1158,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4156887,
+      "idinforme": 4165613,
+      "path": "CND_PRELIMINAR_TOTALES_CONTRATO\\2026\\Octubre\\8\\BRILLOSOL\\totales_por_contratos_2026_octubre_GCP0728_BRILLOSOL.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791822334000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 11:25",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4165614,
+    "agente": {
+      "id": "AG921",
+      "codigo": "BRILLOSOL",
+      "nombre": "Generadora Brillo Solar, S. A.",
+      "ruc": "155731553-2-2022",
+      "digitoVerificador": "01",
+      "direccion": null,
+      "apartadoPostal": null,
+      "website": null,
+      "contacto": null,
+      "representante": null,
+      "general": null,
+      "financiero": null,
+      "comercial": null,
+      "operaciones": null,
+      "smec": null
+    },
+    "tipo": {
+      "id": 1158,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Totales por Contrato",
+      "directory": "CND_PRELIMINAR_TOTALES_CONTRATO",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1158,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1158,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4156888,
+      "idinforme": 4165614,
+      "path": "CND_PRELIMINAR_TOTALES_CONTRATO\\2026\\Octubre\\8\\BRILLOSOL\\totales_por_contratos_2026_octubre_GCP0731_BRILLOSOL.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791822334000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 11:25",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4165615,
+    "agente": {
+      "id": "AG921",
+      "codigo": "BRILLOSOL",
+      "nombre": "Generadora Brillo Solar, S. A.",
+      "ruc": "155731553-2-2022",
+      "digitoVerificador": "01",
+      "direccion": null,
+      "apartadoPostal": null,
+      "website": null,
+      "contacto": null,
+      "representante": null,
+      "general": null,
+      "financiero": null,
+      "comercial": null,
+      "operaciones": null,
+      "smec": null
+    },
+    "tipo": {
+      "id": 1158,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Totales por Contrato",
+      "directory": "CND_PRELIMINAR_TOTALES_CONTRATO",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1158,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1158,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4156889,
+      "idinforme": 4165615,
+      "path": "CND_PRELIMINAR_TOTALES_CONTRATO\\2026\\Octubre\\8\\BRILLOSOL\\totales_por_contratos_2026_octubre_GCP0732_BRILLOSOL.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791822334000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 11:25",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4165616,
+    "agente": {
+      "id": "AG921",
+      "codigo": "BRILLOSOL",
+      "nombre": "Generadora Brillo Solar, S. A.",
+      "ruc": "155731553-2-2022",
+      "digitoVerificador": "01",
+      "direccion": null,
+      "apartadoPostal": null,
+      "website": null,
+      "contacto": null,
+      "representante": null,
+      "general": null,
+      "financiero": null,
+      "comercial": null,
+      "operaciones": null,
+      "smec": null
+    },
+    "tipo": {
+      "id": 1158,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Totales por Contrato",
+      "directory": "CND_PRELIMINAR_TOTALES_CONTRATO",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1158,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1158,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4156890,
+      "idinforme": 4165616,
+      "path": "CND_PRELIMINAR_TOTALES_CONTRATO\\2026\\Octubre\\8\\BRILLOSOL\\totales_por_contratos_2026_octubre_GCP0733_BRILLOSOL.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791822334000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 11:25",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4165177,
+    "agente": null,
+    "tipo": {
+      "id": 1156,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Sustentos",
+      "directory": "CND_PRELIMINAR_SUSTENTOS",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1156,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1156,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4156451,
+      "idinforme": 4165177,
+      "path": "CND_PRELIMINAR_SUSTENTOS\\2026\\Octubre\\8\\detalle_compra_oportunidad_2026_10.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791819767000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 10:42",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4165178,
+    "agente": null,
+    "tipo": {
+      "id": 1156,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Sustentos",
+      "directory": "CND_PRELIMINAR_SUSTENTOS",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1156,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1156,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4156452,
+      "idinforme": 4165178,
+      "path": "CND_PRELIMINAR_SUSTENTOS\\2026\\Octubre\\8\\Informe_Generacion_Antes_Contrato_Reserva_10-2026.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791819767000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 10:42",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4165179,
+    "agente": null,
+    "tipo": {
+      "id": 1156,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Sustentos",
+      "directory": "CND_PRELIMINAR_SUSTENTOS",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1156,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1156,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4156453,
+      "idinforme": 4165179,
+      "path": "CND_PRELIMINAR_SUSTENTOS\\2026\\Octubre\\8\\Preliminar_Sistema_01oct2026_08oct2026.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791819767000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 10:42",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4165180,
+    "agente": null,
+    "tipo": {
+      "id": 1156,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Sustentos",
+      "directory": "CND_PRELIMINAR_SUSTENTOS",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1156,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1156,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4156454,
+      "idinforme": 4165180,
+      "path": "CND_PRELIMINAR_SUSTENTOS\\2026\\Octubre\\8\\reporte_totales_2026_10.csv",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791819767000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 10:42",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  },
+  {
+    "id": 4165181,
+    "agente": null,
+    "tipo": {
+      "id": 1156,
+      "categoria": {
+        "id": 14,
+        "nombre": "Informes de Mercado",
+        "informe": true
+      },
+      "name": "Preliminar Sustentos",
+      "directory": "CND_PRELIMINAR_SUSTENTOS",
+      "abreviatura": null,
+      "nomenclaturea": null,
+      "timeLimit": false,
+      "duration": false,
+      "eventNumber": false,
+      "plant": false,
+      "unity": false,
+      "hour": false,
+      "day": true,
+      "weekend": false,
+      "month": true,
+      "trimester": false,
+      "year": true,
+      "publico": false,
+      "privado": true,
+      "aplicaA": 1,
+      "diasPase": 0,
+      "extensions": [
+        {
+          "id": 1156,
+          "extension": "xlsx",
+          "activo": true
+        },
+        {
+          "id": 1156,
+          "extension": "xls",
+          "activo": true
+        }
+      ],
+      "validations": null,
+      "emails": null,
+      "joomlaUsers": []
+    },
+    "duracion": null,
+    "planta": null,
+    "unidad": null,
+    "semana": null,
+    "adjunto": {
+      "idadjunto": 4156455,
+      "idinforme": 4165181,
+      "path": "CND_PRELIMINAR_SUSTENTOS\\2026\\Octubre\\8\\trandif_compra_oportunidad_2026_10.xlsx",
+      "ftp": false
+    },
+    "numeroEvento": null,
+    "hora": null,
+    "anio": 2026,
+    "mes": {
+      "numero": 10,
+      "nombre": "Octubre"
+    },
+    "dia": 8,
+    "trimestre": null,
+    "fecha": "Octubre 12, 2026",
+    "fechaPublica": "/Date(1791819767000)/",
+    "fechaPublicaFull": "Octubre 12, 2026 10:42",
+    "archivos": null,
+    "sobreescribir": true,
+    "mensaje": null,
+    "renombrar": false,
+    "publico": false,
+    "notifications": false
+  }
+]

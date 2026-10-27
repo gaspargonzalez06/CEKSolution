@@ -1,0 +1,58 @@
+# ---- Whitelist del repo: solo lo que se necesita ----
+/*
+!.gitignore
+!/README.md
+!/iniciar.ps1
+!/INICIAR_TODO.bat
+!/cek_backend
+!/cek_app
+!/CND_Scraper
+
+# ---- patrones generales de basura ----
+__pycache__/
+*.pyc
+*.pyo
+*.log
+Thumbs.db
+.DS_Store
+
+# ---- cek_backend: pesados y secretos ----
+cek_backend/.venv/
+cek_backend/backups/
+cek_backend/static/
+cek_backend/.env
+cek_backend/factura_prueba.html
+cek_backend/_grafica_*.html
+cek_backend/tools_diag.py
+
+# ---- cek_app: builds y IDE ----
+cek_app/build/
+cek_app/.dart_tool/
+cek_app/.idea/
+cek_app/.flutter-plugins-dependencies
+cek_app/ios/Pods/
+cek_app/web/icons/
+
+# ---- CND_Scraper: datos descargados y secretos ----
+CND_Scraper/raw/
+CND_Scraper/downloads/
+CND_Scraper/analisis/
+CND_Scraper/logs/
+CND_Scraper/catalog/
+CND_Scraper/screenshots/
+CND_Scraper/config.yaml
+CND_Scraper/.env
+catalog_*.json
+CND_Scraper/log_*.txt
+
+# ---- TODO lo de abajo queda fuera del repo ----
+_backup_db_cek/
+CND_Scraper_Final/
+VerifyFinal5/
+VerifyFinal6/
+CND_Flow_Explorer/
+*.zip
+_tmp_*.py
+factura_referencia_*.html
+factura_tova_*.html
+consultas_base_CEK_antigua.sql

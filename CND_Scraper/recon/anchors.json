@@ -1,0 +1,110 @@
+[
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Home/Dashboard",
+    "text": ""
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Home/Dashboard",
+    "text": "DASHBOARD"
+  },
+  {
+    "href": "#",
+    "text": "Mi cuenta\nBRILLOSOL"
+  },
+  {
+    "href": "javascript:goTo('Agente/Edit/AG921')",
+    "text": "Editar perfil"
+  },
+  {
+    "href": "javascript:goTo('Reclamo/EditR/AG921')",
+    "text": "Plataforma de Reclamos"
+  },
+  {
+    "href": "javascript:goTo('Suministro/Create')",
+    "text": "Generación Diaria"
+  },
+  {
+    "href": "javascript:goTo('Home/Logout')",
+    "text": "Salir"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4168570",
+    "text": "Preliminar_liquidacion_BRILLOSOL_01oct2026_11oct2026.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4168571",
+    "text": "Preliminar_liquidacion_GCP0719_BRILLOSOL_01oct2026_11oct2026.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4168572",
+    "text": "Preliminar_liquidacion_GCP0720_BRILLOSOL_01oct2026_11oct2026.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4168573",
+    "text": "Preliminar_liquidacion_GCP0721_BRILLOSOL_01oct2026_11oct2026.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4168574",
+    "text": "Preliminar_liquidacion_GCP0722_BRILLOSOL_01oct2026_11oct2026.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4168575",
+    "text": "Preliminar_liquidacion_GCP0727_BRILLOSOL_01oct2026_11oct2026.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4168576",
+    "text": "Preliminar_liquidacion_GCP0728_BRILLOSOL_01oct2026_11oct2026.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4168577",
+    "text": "Preliminar_liquidacion_GCP0731_BRILLOSOL_01oct2026_11oct2026.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4168578",
+    "text": "Preliminar_liquidacion_GCP0732_BRILLOSOL_01oct2026_11oct2026.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4168579",
+    "text": "Preliminar_liquidacion_GCP0733_BRILLOSOL_01oct2026_11oct2026.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4168311",
+    "text": "Preliminar_Generacion_Obligada_01102026_11102026.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4168312",
+    "text": "Preliminar_SASD_111026.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4168313",
+    "text": "Preliminar_Servicios_Auxiliares_111026.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4167849",
+    "text": "totales_por_contratos_2026_octubre_BRILLOSOL.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4167850",
+    "text": "totales_por_contratos_2026_octubre_GCP0719_BRILLOSOL.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4167851",
+    "text": "totales_por_contratos_2026_octubre_GCP0720_BRILLOSOL.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4167852",
+    "text": "totales_por_contratos_2026_octubre_GCP0721_BRILLOSOL.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4167853",
+    "text": "totales_por_contratos_2026_octubre_GCP0722_BRILLOSOL.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4167854",
+    "text": "totales_por_contratos_2026_octubre_GCP0727_BRILLOSOL.xlsx"
+  },
+  {
+    "href": "https://sitioprivado.cnd.com.pa/Informe/Download/4167855",
+    "text": "totales_por_contratos_2026_octubre_GCP0728_BRILLOSOL.xlsx"
+  }
+]
